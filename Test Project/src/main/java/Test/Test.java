@@ -29,7 +29,7 @@ public class Test extends HttpServlet {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		response.setContentType("text/html");
 		PrintWriter pw=response.getWriter();
-		pw.println("<h1>Welcome to Servlet</h1>");
+		pw.println("<font color='red'><h1>Welcome to Servlet</h1></font>");
 	}
 
 	/**
