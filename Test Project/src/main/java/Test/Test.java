@@ -1,7 +1,7 @@
 package Test;
 
 <<<<<<< HEAD
-import java.io.IOException;
+import java.io.*;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -28,7 +28,7 @@ public class Test extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-=======
+
 import java.io.*;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -59,7 +59,7 @@ public class Test extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter pw=response.getWriter();
 		pw.println("<font color='red'><h1>Welcome to Servlet</h1></font>");
->>>>>>> branch 'master' of https://github.com/MajorProject07/TestProject.git
+
 	}
 
 	/**
